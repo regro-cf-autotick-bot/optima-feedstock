@@ -1,4 +1,4 @@
-{% set version = "0.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: optima
@@ -6,35 +6,38 @@ package:
 
 source:
   url: https://github.com/reaktoro/optima/archive/v{{ version }}.tar.gz
-  sha256: 2ffb155dcc5dc12405c5276f438dabdba0e3e5b2eaaa4a34b45cb184c7311392
+  sha256: 1336dccd971cf167fcde9a71e99322040d24e0a504225b7658854c1637803b8a
 
 build:
   number: 0
-  skip: true  # [osx or win]
 
 requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
-    - catch2
+    - ninja
     - ccache   # [unix]
     - clcache  # [win]
   host:
+    - catch2
+    - eigen4rkt
     - python
     - numpy
     - pip
     - pybind11
     - pybind11-stubgen
     - setuptools
+    - pytest
+    - pytest-xdist
   run:
     - python
     - numpy
+    - eigen4rkt
 test:
   requires:
     - {{ compiler('cxx') }}
     - cmake
-    - pytest
-    - pytest-xdist
+    - ninja
   files:
     - test/
   imports:
