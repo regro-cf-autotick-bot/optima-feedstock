@@ -10,6 +10,3 @@ cmake -GNinja .. ${CMAKE_ARGS}  \
 
 # Build and install Optima in $PREFIX
 ninja install
-
-# Perform all Optima tests after build step
-ninja tests

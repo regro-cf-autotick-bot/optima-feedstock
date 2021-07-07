@@ -11,6 +11,3 @@ cmake -GNinja ..                            ^
 
 @REM Build and install Optima in %LIBRARY_PREFIX%
 ninja install
-
-@REM Perform all Optima tests after build step
-ninja tests
