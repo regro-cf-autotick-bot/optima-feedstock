@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/optima/archive/v{{ version }}.tar.gz
-  sha256: 1336dccd971cf167fcde9a71e99322040d24e0a504225b7658854c1637803b8a
+  sha256: 3703635449d3382cffa4b97966b0f4c1856ef702ad7a8de67a677ba735bf5ef6
 
 build:
   number: 0
