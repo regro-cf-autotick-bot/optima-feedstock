@@ -23,8 +23,10 @@ requirements:
     - eigen4rkt
     - python
     - numpy
+    - eigen4rkt
     - pip
     - pybind11
+    - pybind11-abi
     - pybind11-stubgen
     - setuptools
     - pytest
