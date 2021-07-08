@@ -20,7 +20,7 @@ requirements:
     - clcache  # [win]
   host:
     - catch2
-    - eigen4rkt
+    - eigen4rkt ==3.3.90.4
     - python
     - numpy
     - eigen4rkt
