@@ -1,4 +1,4 @@
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 
 package:
   name: optima
@@ -6,11 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/optima/archive/v{{ version }}.tar.gz
-  sha256: dfbc79b2bc0c7e72e74b676fd40922002075b0136f036754b2f963698403c828
-
-  #  Use the config below to use a branch to test conda-forge builds without creating GitHub releases.
-  #git_url: https://github.com/reaktoro/optima.git
-  #git_rev: master
+  sha256: 8f6ba67b88edbf32c06835af73b3b462acafd872f9aa7aeeee074ef451799760
   
 build:
   number: 0
@@ -23,7 +19,7 @@ requirements:
     - ccache   # [unix]
     - clcache  # [win]
   host:
-    - catch2
+    - catch2 =2
     - eigen4rkt
     - python
     - numpy
