@@ -7,10 +7,6 @@ package:
 source:
   url: https://github.com/reaktoro/optima/archive/v{{ version }}.tar.gz
   sha256: 8f6ba67b88edbf32c06835af73b3b462acafd872f9aa7aeeee074ef451799760
-
-  #  Use the config below to use a branch to test conda-forge builds without creating GitHub releases.
-  #git_url: https://github.com/reaktoro/optima.git
-  #git_rev: master
   
 build:
   number: 0
