@@ -1,4 +1,4 @@
-{% set version = "0.2.14" %}
+{% set version = "0.2.15" %}
 
 package:
   name: optima
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/optima/archive/v{{ version }}.tar.gz
-  sha256: aea8eb69181c43523ab0ef4823f52a1b23f33aa59a40b2168e2b11a9e794af95
+  sha256: aa866ac5424e038cdc1ad41ccaa1c61a58651d453aeeade6ebd371d2815cf1c9
   
 build:
   number: 0
