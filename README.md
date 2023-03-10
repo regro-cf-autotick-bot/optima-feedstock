@@ -1,11 +1,11 @@
-About optima
-============
+About optima-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/optima-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/reaktoro/optima
 
 Package license: LGPL-2.1-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/optima-feedstock/blob/main/LICENSE.txt)
 
 Summary: A C++/Python library for linear and non-linear constrained optimization calculations
 
